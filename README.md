@@ -1,5 +1,3 @@
-![](docs/mona.gif)
-
 # Avatarify Python
 
 *根据之前比较火的avatarify视频会议换脸的代码改造成的视频换脸代码（本人的电脑实在带不动实时换脸...）
