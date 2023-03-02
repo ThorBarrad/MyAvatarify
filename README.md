@@ -2,6 +2,9 @@
 
 # Avatarify Python
 
+*根据之前比较火的avatarify视频会议换脸的代码改造成的视频换脸代码（本人的电脑实在带不动实时换脸...）
+同样贴出原作者的github地址：
+
 Photorealistic avatars for video-conferencing.
 
 Avatarify Python requires manually downloading and installing some dependencies, and is therefore best suited for users who have some experience with command line applications. [Avatarify Desktop](https://github.com/alievk/avatarify-desktop), which aims to be easier to install and use, is recommended for most users. If you still want to use Avatarify Python, proceed to the [install instructions](docs/).
