@@ -1,7 +1,7 @@
 # Avatarify Python
 
 *根据之前比较火的avatarify视频会议换脸的代码改造成的视频换脸代码（本人的电脑实在带不动实时换脸...）
-同样贴出原作者的github地址：
+同样贴出原作者的github地址：https://github.com/alievk/avatarify-python
 
 Photorealistic avatars for video-conferencing.
 
