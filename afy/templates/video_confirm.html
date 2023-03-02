@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频确认</title>
+</head>
+<body>
+<h1>视频确认</h1>
+<h2>点击下方按钮以使用该视频或重新录制视频</h2>
+<form enctype='multipart/form-data' method='POST'>
+    <input type="hidden" name="post_type" value="video_confirm">
+    <input type="submit" value="确认"/>
+</form>
+<form enctype='multipart/form-data' method='POST'>
+    <input type="hidden" name="post_type" value="video_restart">
+    <input type="submit" value="重新选择"/>
+</form>
+<video width="480" height="270" controls>
+    <source src="static/video/original.mp4" type="video/mp4">
+</video>
+</body>
+</html>

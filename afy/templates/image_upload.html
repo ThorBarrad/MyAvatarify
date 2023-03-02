@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图像上传</title>
+</head>
+<body>
+<h1>图像上传</h1>
+<h2>请上传一张带有人脸的jpg格式图像</h2>
+<h2>或者输入0-7选择预设图像</h2>
+<form enctype='multipart/form-data' method='POST'>
+    <input type="file" name="image_upload"/>
+    <input type="hidden" name="post_type" value="image_upload">
+    <input type="text" name="image_index"/>
+    <input type="submit" value="上传"/>
+</form>
+<h2>默认图像</h2>
+<img src="static/avatars/einstein.jpg" height="200" alt="你的图⽚被外星⼈劫持了~~"/>
+<img src="static/avatars/eminem.jpg" height="200" alt="你的图⽚被外星⼈劫持了~~"/>
+<img src="static/avatars/jobs.jpg" height="200" alt="你的图⽚被外星⼈劫持了~~"/>
+<img src="static/avatars/mona.jpg" height="200" alt="你的图⽚被外星⼈劫持了~~"/>
+<img src="static/avatars/obama.jpg" height="200" alt="你的图⽚被外星⼈劫持了~~"/>
+<img src="static/avatars/potter.jpg" height="200" alt="你的图⽚被外星⼈劫持了~~"/>
+<img src="static/avatars/ronaldo.png" height="200" alt="你的图⽚被外星⼈劫持了~~"/>
+<img src="static/avatars/schwarzenegger.png" height="200" alt="你的图⽚被外星⼈劫持了~~"/>
+</body>
+</html>

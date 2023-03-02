@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图像确认</title>
+</head>
+<body>
+<h1>图像确认</h1>
+<h2>点击下方按钮以使用该图像或重新选择图像</h2>
+<form enctype='multipart/form-data' method='POST'>
+    <input type="hidden" name="post_type" value="image_confirm">
+    <input type="submit" value="确认"/>
+</form>
+<form enctype='multipart/form-data' method='POST'>
+    <input type="hidden" name="post_type" value="image_restart">
+    <input type="submit" value="重新选择"/>
+</form>
+<img src="{{imgsrc}}" height="400" alt="你的图⽚被外星⼈劫持了~~"/>
+</body>
+</html>
